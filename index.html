@@ -3,9 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="container">
+      <h1>Weather App</h1>
+
+      <!-- Search Box -->
+      <div class="search-box">
+        <input type="text" id="city" placeholder="Enter a city" />
+        <button>Search</button>
+      </div>
+
+      <!-- Weather-box -->
+      <div class="card">
+        <!-- LEFT -->
+        <div class="left">
+          <img
+            src="icons/animated/rainy-1.svg"
+            alt="weather icon"
+            class="icon"
+          />
+          <p class="cityName"></p>
+        </div>
+        <!-- RIGHT -->
+        <div class="right">
+          <p>Temperature: <span class="temp"></span>°C</p>
+          <p>Feels like: <span class="feels"></span>°C</p>
+          <p>Humidity: <span class="humidity"></span></p>
+        </div>
+      </div>
+    </div>
     <!-- script -->
     <script src="script.js"></script>
   </body>

@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  background: #1f2a38;
+  color: #00ff88;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.search-box {
+  margin: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #00c853;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.card {
+  width: 400px;
+  /* margin: auto; */
+  border: 2px solid #00ff88;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.left img {
+  width: 120px;
+}
+
+.right {
+  background: #d9d9d9;
+  color: black;
+
+  padding: 30px 20px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.cityName {
+  margin-top: 10px;
+  text-align: center;
+}
